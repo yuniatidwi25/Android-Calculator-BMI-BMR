@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "border_padding">10dp</dimen>
+    <dimen name = "show_name_tsize">18sp</dimen>
+    <dimen name = "show_name_padding">12dp</dimen>
+</resources>

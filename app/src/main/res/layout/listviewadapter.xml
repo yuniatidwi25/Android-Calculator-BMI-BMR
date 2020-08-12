@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="50dp"
+        android:id="@+id/text"
+        android:text="     "
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:id="@+id/id_txt"
+        android:layout_toRightOf="@+id/text"
+        android:text="0"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:id="@+id/name_txt"
+        android:layout_toRightOf="@+id/id_txt"
+        android:text="List View Name"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:id="@+id/age_txt"
+        android:layout_toRightOf="@+id/name_txt"
+        android:text="List View Age"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+
+</RelativeLayout>

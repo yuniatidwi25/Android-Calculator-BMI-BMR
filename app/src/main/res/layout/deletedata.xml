@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteData">
+    <LinearLayout
+        android:id = "@+id/titletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Input name and age based on the main menu you want to delete."
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayouta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/titletext">
+
+        <TextView
+            android:id="@+id/tname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:hint="type name here"
+            android:ems="10"
+            android:inputType="text"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id = "@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayouta">
+
+        <TextView
+            android:id="@+id/tage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Age"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text_umur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="type age here"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"
+            android:ems="10"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width = "150dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/btnBack"
+        android:text = "BACK"
+        android:textSize = "24sp"
+        android:padding = "20dp"
+        android:layout_below = "@id/linearlayout3"
+        android:layout_marginLeft = "20dp"
+        android:layout_marginTop = "50dp"
+        android:textColor="@color/blue"
+        android:background="@color/lightblue"/>
+
+    <Button
+        android:layout_width = "150dp"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/btnDelete"
+        android:text = "DELETE"
+        android:textSize = "24sp"
+        android:padding = "20dp"
+        android:layout_below = "@id/linearlayout3"
+        android:layout_alignParentRight = "true"
+        android:layout_marginRight = "20dp"
+        android:layout_marginTop = "50dp"
+        android:textColor="@color/blue"
+        android:background="@color/red"/>
+
+
+</RelativeLayout>

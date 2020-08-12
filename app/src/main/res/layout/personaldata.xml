@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonalData">
+    <LinearLayout
+        android:id = "@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="ID"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="0"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayouta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout1">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:text="name" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayouta">
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Gender"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gender"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout2">
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Age"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="age"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id = "@+id/linearlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout3">
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Height"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="height"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout4">
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Weight"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weight"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/linearlayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout5">
+
+        <TextView
+            android:id="@+id/bmi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="BMI"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "5"
+            android:text="bmi"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id = "@+id/linearlayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/linearlayout9">
+
+        <TextView
+            android:id="@+id/bmr"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="BMR"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_bmr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bmr"
+            android:padding="15dp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/edit_button"
+        android:text = " EDIT "
+        android:textSize = "24sp"
+        android:padding = "20dp"
+        android:layout_below = "@id/linearlayout6"
+        android:layout_marginTop = "20dp"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/blue"
+        android:background="@color/lightblue"/>
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout6"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/edit_button"
+        android:padding="20dp"
+        android:text=" BACK "
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        android:background="@color/lightblue" />
+
+    <Button
+       android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/delete_button"
+        android:text = "DELETE"
+        android:textSize = "24sp"
+        android:padding = "20dp"
+        android:layout_below = "@id/linearlayout6"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop = "20dp"
+        android:layout_marginRight = "2dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/back_button"
+        android:textColor="@color/blue"
+        android:background="@color/red"/>
+
+
+
+</RelativeLayout>
